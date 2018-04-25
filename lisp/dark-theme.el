@@ -33,6 +33,8 @@
 (custom-set-variables
  '(tabbar-background-color "#282C34"))
 
+(set-fringe-mode '(0 . 0))
+
 (defvar atom-one-dark-colors-alist
   (let* ((256color  (eq (display-color-cells (selected-frame)) 256))
          (colors `(("atom-one-dark-accent"   . "#528BFF")
