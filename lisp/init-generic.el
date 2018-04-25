@@ -1,8 +1,5 @@
 ;; (set-frame-parameter nil 'alpha '(98 . 100))
 
-(scroll-bar-mode -1)
-(tool-bar-mode -1)
-(menu-bar-mode -1)                                  
 (show-paren-mode t)                     ; 高亮显示成对括号   
 (transient-mark-mode 1)                 ; 标记高亮
 (fset 'yes-or-no-p 'y-or-n-p)           ; 烦人的yes/no

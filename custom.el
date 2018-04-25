@@ -9,10 +9,12 @@
 
 (require 'dark-theme)
 (require 'basic-tools)
+(require 'hide-comnt)
 (require 'move-text)
-(require 'paredit)   
+(require 'paredit)
 (require 'less)
-                  
+
+(require 'init-startup)
 (require 'init-auto-complete)
 (require 'init-auto-save)
 (require 'init-generic)
@@ -24,8 +26,7 @@
 (require 'init-tabbar)
 (require 'init-yasnippet)
 (require 'init-paredit)
-(require 'init-key)
 (require 'init-ide)
-(require 'hide-comnt)
+(require 'init-key)
 
 (provide 'custom)
