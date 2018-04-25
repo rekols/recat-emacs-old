@@ -17,8 +17,9 @@
      ("M-M" . kill-syntax-forward+)             ;向前进行语法删除
      ("C-j" . paredit-newline)
      ("C-x C-f" . ido-find-file)
+     ("M-m" . hide/show-comments-toggle)
   )
-  )
+)
 
 (defvar paredit-key-alist nil)
 (setq paredit-key-alist

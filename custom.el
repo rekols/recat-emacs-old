@@ -4,15 +4,14 @@
     (add-to-list 'load-path dir)
    (normal-top-level-add-subdirs-to-load-path)))
 
-(add-subdirs-to-load-path "~/remacs/lisp/")
-(add-subdirs-to-load-path "~/remacs/plugins/")
+(add-subdirs-to-load-path "~/remacs/lisp")
+(add-subdirs-to-load-path "~/remacs/plugins")
 
 (require 'dark-theme)
 (require 'basic-tools)
 (require 'move-text)
-(require 'paredit)
+(require 'paredit)   
 (require 'less)
-(require 'hide-comnt)
                   
 (require 'init-auto-complete)
 (require 'init-auto-save)
@@ -27,5 +26,6 @@
 (require 'init-paredit)
 (require 'init-key)
 (require 'init-ide)
+(require 'hide-comnt)
 
 (provide 'custom)
