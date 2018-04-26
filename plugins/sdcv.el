@@ -164,6 +164,7 @@
 (require 'outline)
 (eval-when-compile
   (require 'cl))
+(require 'pos-tip)
 ;(require 'showtip)
 
 ;;; Code:
@@ -216,6 +217,13 @@
     ("^\\[\\([^]]*\\)\\]$" . (1 font-lock-string-face))
     )
   "Expressions to highlight in `sdcv-mode'.")
+
+(defun -pos-tip (string)
+  "Show STRING using pos-tip-show."
+  (pos-tip-show string nil nil nil 0)
+  (unwind-protect
+      (push (read-event) unread-command-events)
+    (pos-tip-hide)))
 
 (defvar sdcv-mode-map                   ;key map
   (let ((map (make-sparse-keymap)))
@@ -369,7 +377,7 @@ The result will be displayed in buffer named with
 
 (defun sdcv-search-simple (&optional word)
   "Search WORD simple translate result."
-  (popup-tip
+  (-pos-tip
    (sdcv-search-witch-dictionary word sdcv-dictionary-simple-list)))
 
 (defun sdcv-search-witch-dictionary (word dictionary-list)
