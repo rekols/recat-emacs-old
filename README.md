@@ -1,5 +1,15 @@
 # Rekols's Emacs
 
-与 Deepin Emacs 一样的手感
+The same feel as Deepin Emacs.
 
+# Plugins
 
+* [auto-complete](https://github.com/auto-complete/auto-complete)
+
+* [popup-el](https://github.com/auto-complete/popup-el)
+
+* [yasnippet](https://github.com/joaotavora/yasnippet)
+
+* [tabbar](https://www.emacswiki.org/emacs/TabBarMode)
+
+....
