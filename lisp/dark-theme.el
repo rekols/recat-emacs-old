@@ -34,6 +34,9 @@
  '(tabbar-background-color "#282C34"))
 
 (set-fringe-mode '(0 . 0))
+(set-face-attribute 'default nil :height 130)
+(setq linum-format (concat " %" (number-to-string (length (number-to-string (count-lines (point-min) (point-max))))) "d "))
+
 
 (defvar atom-one-dark-colors-alist
   (let* ((256color  (eq (display-color-cells (selected-frame)) 256))
