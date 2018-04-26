@@ -23,7 +23,7 @@
 
 (lazy-set-key
  '(
-   ("C-y" . sdcv-search-pointer+)
+   ("C-a" . sdcv-search-pointer+)
    ))
 
 (defvar paredit-key-alist nil)
