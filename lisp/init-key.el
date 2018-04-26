@@ -19,7 +19,12 @@
      ("C-x C-f" . ido-find-file)
      ("M-m" . hide/show-comments-toggle)
   )
-)
+  )
+
+(lazy-set-key
+ '(
+   ("C-y" . sdcv-search-pointer+)
+   ))
 
 (defvar paredit-key-alist nil)
 (setq paredit-key-alist

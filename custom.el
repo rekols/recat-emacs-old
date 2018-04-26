@@ -29,4 +29,6 @@
 (require 'init-ide)
 (require 'init-key)
 
+(require 'init-sdcv)
+
 (provide 'custom)
