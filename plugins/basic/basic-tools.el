@@ -97,4 +97,19 @@ use function `completion-delete'."
   (tramp-cleanup-all-connections)
   (find-file (concat "/sudo:root@localhost:" file)))
 
+(defun point-stack-push ()
+  "Push current point in stack."
+  (interactive)
+  (message "Location marked.")
+  (setq point-stack (cons (list (current-buffer) (point)) point-stack)))
+
+(defun point-stack-pop ()
+  "Pop point from stack."
+  (interactive)
+  (if (null point-stack)
+      (message "Stack is empty.")
+    (switch-to-buffer (caar point-stack))
+    (goto-char (cadar point-stack))
+    (setq point-stack (cdr point-stack))))
+
 (provide 'basic-tools)

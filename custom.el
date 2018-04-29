@@ -15,6 +15,7 @@
 (require 'less)
 
 (require 'init-startup)
+(require 'init-rtags)
 (require 'init-auto-complete)
 (require 'init-auto-save)
 (require 'init-generic)

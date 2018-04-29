@@ -85,6 +85,8 @@
      ("s-P" . move-text-up)
      ("s-J" . scroll-up-line)
      ("s-K" . scroll-down-line)
+     ("M-s-," . point-stack-pop)
+     ("M-s-." . point-stack-push)
   )
 )
 
