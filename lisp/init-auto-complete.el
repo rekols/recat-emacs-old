@@ -37,6 +37,7 @@
   (add-hook 'css-mode-hook 'ac-css-mode-setup)
   (add-hook 'auto-complete-mode-hook 'ac-common-setup)
   (global-auto-complete-mode t))
+
 (defun my-ac-cc-mode-setup ()
   (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)

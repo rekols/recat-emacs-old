@@ -13,3 +13,9 @@ The same feel as Deepin Emacs.
 * [tabbar](https://www.emacswiki.org/emacs/TabBarMode)
 
 ....
+
+# Dependencies
+
+```
+$ sudo apt install clang libclang1
+```
