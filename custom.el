@@ -29,7 +29,8 @@
 (require 'init-paredit)
 (require 'init-ide)
 (require 'init-key)
-
 (require 'init-sdcv)
+
+(require 'youdao-dictionary)
 
 (provide 'custom)

@@ -47,7 +47,8 @@
    ("M--" . text-scale-decrease-global) ;减少字体大小, 全局
    ("M-+" . text-scale-increase-global) ;增加字体大小, 全局
    ("s-x" . multi-term-dedicated-toggle) ; toggle terminal
-   ("s-f" . find-file-root)
+   ("s-f" . find-file-root)              ; root 打开
+   ("C-a" . youdao-dictionary-search-at-point-tooltip) ; 有道翻译
 ))
 
 (lazy-set-key
