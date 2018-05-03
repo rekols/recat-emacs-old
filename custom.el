@@ -5,7 +5,7 @@
    (normal-top-level-add-subdirs-to-load-path)))
 
 (add-subdirs-to-load-path "~/remacs/lisp")
-(add-subdirs-to-load-path "~/remacs/plugins")
+(add-subdirs-to-load-path "~/remacs/extensions")
 
 (require 'dark-theme)
 (require 'basic-tools)
@@ -30,6 +30,7 @@
 (require 'init-ide)
 (require 'init-key)
 (require 'init-sdcv)
+(require 'init-moccur)
 
 (require 'youdao-dictionary)
 

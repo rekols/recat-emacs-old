@@ -21,6 +21,13 @@
   )
   )
 
+(lazy-set-autoload-key
+ '(
+   ("s-x g" . moccur-at-pointer)        ;递归搜索当前目录下的文件
+   ("s-x h" . moccur-grep-find-pwd)     ;手动递归搜索当前目录下的文件
+   )
+ "moccur-at-pointer")
+
 (lazy-set-key
  '(
    ("C-a" . sdcv-search-pointer+)
@@ -46,7 +53,7 @@
  '(
    ("M--" . text-scale-decrease-global) ;减少字体大小, 全局
    ("M-+" . text-scale-increase-global) ;增加字体大小, 全局
-   ("s-x" . multi-term-dedicated-toggle) ; toggle terminal
+   ;; ("s-x" . multi-term-dedicated-toggle) ; toggle terminal
    ("s-f" . find-file-root)              ; root 打开
    ("C-a" . youdao-dictionary-search-at-point-tooltip) ; 有道翻译
 ))
