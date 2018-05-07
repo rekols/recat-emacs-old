@@ -17,7 +17,7 @@
      ("M-M" . kill-syntax-forward+)             ;向前进行语法删除
      ("C-j" . paredit-newline)
      ("C-x C-f" . ido-find-file)
-     ("M-n" . multi-term-dedicated-toggle)
+     ("M-t" . multi-term-dedicated-toggle)
      ("M-m" . hide/show-comments-toggle)
   )
   )
