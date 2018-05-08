@@ -48,6 +48,10 @@ The theme has to be reloaded after changing anything in this group."
 (custom-set-variables
  '(tabbar-background-color "#FFFFFF"))
 
+(set-fringe-mode '(0 . 0))
+(set-face-attribute 'default nil :height 130)
+(setq linum-format (concat " %" (number-to-string (length (number-to-string (count-lines (point-min) (point-max))))) "d "))
+
 (defcustom leuven-scale-outline-headlines t
   "Scale `outline' (and `org') level-1 headlines.
 This can be nil for unscaled, t for using the theme default, or a scaling number."
