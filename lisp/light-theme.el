@@ -163,8 +163,8 @@ more...")
    `(cursor ((,class (:background "#21BDFF"))))
 
    '(tabbar-default ((((class color) (background light)) (:inherit variable-pitch :height 1.1 :family "文泉驿等宽微米黑"))))
-   '(tabbar-selected ((t (:inherit tabbar-default :background "#EDEDED" :foreground "#636363" :box (:line-width 1 :color "#4F545D")))))
-   '(tabbar-unselected ((t (:inherit tabbar-default :background "#FFFFFF" :foreground "#969696" :box (:line-width 1 :color "#4F545D")))))
+   '(tabbar-selected ((t (:inherit tabbar-default :background "#EDEDED" :foreground "#636363" :box (:line-width 1 :color "#EDEDED")))))
+   '(tabbar-unselected ((t (:inherit tabbar-default :background "#FFFFFF" :foreground "#969696" :box (:line-width 1 :color "#FFFFFF")))))
 
    ;; Lucid toolkit emacs menus.
    `(menu ((,class (:foreground "#FFFFFF" :background "#333333"))))

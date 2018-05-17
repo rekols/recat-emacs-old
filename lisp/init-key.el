@@ -19,6 +19,7 @@
      ("C-x C-f" . ido-find-file)
      ("M-t" . multi-term-dedicated-toggle)
      ("M-m" . hide/show-comments-toggle)
+     ("M-j" . sr-speedbar-toggle)
   )
   )
 

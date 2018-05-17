@@ -7,7 +7,7 @@
 (add-subdirs-to-load-path "~/remacs/lisp")
 (add-subdirs-to-load-path "~/remacs/extensions")
 
-(require 'light-theme)
+(require 'dark-theme)
 (require 'basic-tools)
 (require 'hide-comnt)
 (require 'move-text)
@@ -31,6 +31,7 @@
 (require 'init-key)
 (require 'init-sdcv)
 (require 'init-moccur)
+(require 'init-speedbar)
 
 (require 'youdao-dictionary)
 
