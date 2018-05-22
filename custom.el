@@ -22,7 +22,6 @@
 (require 'init-multiterm)
 (require 'init-linum)
 (require 'init-backup)
-(require 'init-dired)
 (require 'init-indent)
 (require 'init-tabbar)
 (require 'init-yasnippet)
@@ -32,6 +31,7 @@
 (require 'init-sdcv)
 (require 'init-moccur)
 (require 'init-speedbar)
+(require 'init-dired)
 
 (require 'youdao-dictionary)
 

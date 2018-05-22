@@ -100,15 +100,4 @@
   )
 )
 
-;; Dired
-
-(lazy-set-key
-  '(
-     ("j" . dired-next-file-line)
-     ("k" . dired-previous-file-line)
-     ("E" . dired-touch-now)
-     ("'" . dired-up-directory-single)
-   ) dired-mode-map
-)
-
 (provide 'init-key)
