@@ -38,9 +38,10 @@ $ sudo apt install clang libclang1
 功能名 | 快捷键
 :--- | ---
 弹出 | M-j
-展开当前行 | e
-收缩当前行 | q
+展开当前行 | x
+收缩当前行 | z
 刷新 | g
+上一级目录 | q
 删除 | d
 重命名 | r
 创建目录 | m
