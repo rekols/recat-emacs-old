@@ -9,7 +9,7 @@
 (lazy-set-key
  '(
    ;; 导航操作
-   ("e" . speedbar-edit-line)             ;进入当前条目
+   ;; ("e" . speedbar-edit-line)             ;进入当前条目
    ("j" . speedbar-next)                  ;下一行
    ("k" . speedbar-prev)                  ;上一行
    ("n" . speedbar-forward-list)          ;下一条目
@@ -19,12 +19,12 @@
    ("B" . speedbar-buffers)               ;切换缓存视图
    ;; ("q" . sr-speedbar-toggle)             ;退出
    ;; 树操作
-   ("x" . speedbar-expand-line)           ;展开当前行
-   ("z" . speedbar-contract-line)         ;收缩当前行
+   ("e" . speedbar-expand-line)           ;展开当前行
+   ("q" . speedbar-contract-line)         ;收缩当前行
    ("v" . speedbar-toggle-line-expansion) ;切换当前行的状态
    ;; 文件操作
    ("g" . speedbar-refresh)             ;刷新
-   ("q" . speedbar-up-directory)        ;上一级目录
+   ;; ("q" . speedbar-up-directory)        ;上一级目录
    ("i" . speedbar-item-info)           ;显示信息
    ("b" . speedbar-item-byte-compile)   ;编译
    ("l" . speedbar-item-load)           ;加载
