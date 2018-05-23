@@ -4,7 +4,7 @@
 ;; (setq sr-speedbar-max-width 150)
 (setq sr-speedbar-right-side nil)
 (setq sr-speedbar-width 25)
-(setq sr-speedbar-auto-refresh t)
+;; (setq sr-speedbar-auto-refresh t)
 
 (lazy-set-key
  '(
