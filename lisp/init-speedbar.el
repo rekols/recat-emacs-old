@@ -1,15 +1,15 @@
 (require 'speedbar)
 (require 'sr-speedbar)
 
-(setq sr-speedbar-max-width 200)
+;; (setq sr-speedbar-max-width 150)
 (setq sr-speedbar-right-side nil)
+(setq sr-speedbar-width 25)
 (setq sr-speedbar-auto-refresh t)
 
 (lazy-set-key
  '(
    ;; 导航操作
-   ("f" . speedbar-edit-line)             ;进入当前条目
-   ("C-m" . speedbar-edit-line)           ;进入当前条目
+   ("e" . speedbar-edit-line)             ;进入当前条目
    ("j" . speedbar-next)                  ;下一行
    ("k" . speedbar-prev)                  ;上一行
    ("n" . speedbar-forward-list)          ;下一条目
@@ -17,14 +17,14 @@
    ("u" . speedbar-forced-contract)       ;跳到上一级
    ("F" . speedbar-files)                 ;切换文件视图
    ("B" . speedbar-buffers)               ;切换缓存视图
-   ("q" . sr-speedbar-toggle)             ;退出
+   ;; ("q" . sr-speedbar-toggle)             ;退出
    ;; 树操作
    ("x" . speedbar-expand-line)           ;展开当前行
    ("z" . speedbar-contract-line)         ;收缩当前行
    ("v" . speedbar-toggle-line-expansion) ;切换当前行的状态
    ;; 文件操作
    ("g" . speedbar-refresh)             ;刷新
-   ("'" . speedbar-up-directory)        ;上一级目录
+   ("q" . speedbar-up-directory)        ;上一级目录
    ("i" . speedbar-item-info)           ;显示信息
    ("b" . speedbar-item-byte-compile)   ;编译
    ("l" . speedbar-item-load)           ;加载

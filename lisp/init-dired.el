@@ -4,9 +4,9 @@
 (require 'dired-details+)
 (require 'dired-extension)
 
-(setq my-dired-omit-status t)           ;设置默认忽略文件
+(setq my-dired-omit-status t)                 ;设置默认忽略文件
 (setq my-dired-omit-regexp "^\\.?#\\|^\\..*") ;设置忽略文件的匹配正则表达式
-(setq my-dired-omit-extensions '(".cache")) ;设置忽略文件的扩展名列表
+(setq my-dired-omit-extensions '(".cache"))   ;设置忽略文件的扩展名列表
 
 (add-hook 'dired-after-readin-hook '(lambda ()
                                       (progn
@@ -25,7 +25,7 @@
      ("j" . dired-next-file-line)       ; 下
      ("k" . dired-previous-file-line)   ; 上
      ("E" . dired-touch-now)            ; 新建文件
-     ("W" . dired-x-find-file)          ; 搜索文件
+     ("S" . dired-do-moccur)            ; 搜索文件
      ("q" . dired-up-directory-single)  ; 上一级目录
      ("e" . dired-find-file)            ; 打开文件或目录
      ("?" . dired-get-size)             ; 文件大小
