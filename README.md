@@ -2,7 +2,7 @@
 
 The same feel as Deepin Emacs.
 
-# Plugins
+# Plugins (一些插件)
 
 * [auto-complete](https://github.com/auto-complete/auto-complete)
 
@@ -14,13 +14,13 @@ The same feel as Deepin Emacs.
 
 ....
 
-# Dependencies
+# Dependencies (依赖)
 
 ```
 $ sudo apt install clang libclang1
 ```
 
-# Features
+# Features (特点)
 
 打开文件自动进入 Less 模式（只读模式），类似 Vim，有的时候不进行编辑操作，在 Less 下可以快速阅读代码。
 
