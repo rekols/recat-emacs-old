@@ -26,6 +26,8 @@
 (fullscreen)
 (set-face-attribute 'default nil :height 145) ;设置字体大小
 
+(setq smooth-scroll-margin 2) ; 平滑滚动
+
 (add-hook 'text-mode-hook 'less-minor-mode)
 (add-hook 'prog-mode-hook 'less-minor-mode)
 

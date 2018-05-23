@@ -5,6 +5,7 @@
 (setq sr-speedbar-right-side nil)
 (setq sr-speedbar-width 25)
 (setq sr-speedbar-auto-refresh nil)
+(setq speedbar-show-unknown-files t) 
 
 (lazy-set-key
  '(
