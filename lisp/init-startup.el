@@ -26,4 +26,7 @@
 (fullscreen)
 (set-face-attribute 'default nil :height 145) ;设置字体大小
 
+(add-hook 'text-mode-hook 'less-minor-mode)
+(add-hook 'prog-mode-hook 'less-minor-mode)
+
 (provide 'init-startup)
