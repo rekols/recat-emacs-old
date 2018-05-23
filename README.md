@@ -20,10 +20,18 @@ The same feel as Deepin Emacs.
 $ sudo apt install clang libclang1
 ```
 
+# Features
+
+打开文件自动进入 Less 模式（只读模式），类似 Vim，有的时候不进行编辑操作，在 Less 下可以快速阅读代码。
+
 # 快捷键
 
-## Dired (文件管理器)
+## 文本模式
+功能名 | 快捷键
+:--- | ---
+Less | C-i
 
+## Dired (文件管理器)
 功能名 | 快捷键
 :--- | ---
 新建文件 | E
@@ -34,7 +42,6 @@ $ sudo apt install clang libclang1
 重命名 | n
 
 ## Speedbar (导航栏)
-
 功能名 | 快捷键
 :--- | ---
 弹出 | M-j

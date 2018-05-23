@@ -12,7 +12,7 @@
      ("M-h" . set-mark-command)
      ("M-g" . goto-line)
      ("C-:" . comment-or-uncomment-region+)
-     ("M-s-l" . less-minor-mode)
+     ("C-i" . less-minor-mode)
      ("M-N" . kill-syntax-backward+)            ;向后进行语法删除
      ("M-M" . kill-syntax-forward+)             ;向前进行语法删除
      ("C-j" . paredit-newline)
