@@ -29,7 +29,7 @@ $ sudo apt install clang libclang1
 ## 文本模式
 功能名 | 快捷键
 :--- | ---
-Less | C-i
+Less | C-l
 注释隐藏 | M-m
 
 ## Dired (文件管理器)
