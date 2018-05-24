@@ -22,7 +22,7 @@ Dependencies: `sudo apt install clang libclang1`
 
 # Features (特点)
 
-打开文件自动进入 Less 模式（只读模式），类似 Vim，有的时候不进行编辑操作，在 Less 下可以快速阅读代码。
+打开文件自动进入 Less 模式（只读模式），类似 Vim，有的时候不进行编辑操作，在 Less 下可以快速阅读代码，按住 i 退出该模式。
 
 # 快捷键
 

@@ -12,7 +12,6 @@
 (require 'hide-comnt)
 (require 'move-text)
 (require 'paredit)
-(require 'less)
 
 (require 'init-startup)
 (require 'init-flycheck)
@@ -28,6 +27,7 @@
 (require 'init-paredit)
 (require 'init-ide)
 (require 'init-key)
+(require 'init-less)
 (require 'init-sdcv)
 (require 'init-moccur)
 (require 'init-speedbar)

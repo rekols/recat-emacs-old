@@ -14,7 +14,7 @@
      ("C-:" . comment-or-uncomment-region+)
      ("M-l" . less-minor-mode)
      ("M-N" . kill-syntax-backward+)            ;向后进行语法删除
-     ("M-M" . kill-syntax-forward+)             ;向前进行语法删除
+     ("M-M" . killn-syntax-forward+)             ;向前进行语法删除
      ("C-j" . paredit-newline)
      ("C-x C-f" . ido-find-file)
      ("M-t" . multi-term-dedicated-toggle)
@@ -22,13 +22,6 @@
      ("M-j" . sr-speedbar-toggle)
   )
   )
-
-(lazy-set-key
- '(
-   ("q" . dired-jump)
-   )
- less-minor-mode-map
- )
 
 (lazy-set-autoload-key
  '(
