@@ -29,7 +29,7 @@ Dependencies: `sudo apt install clang libclang1`
 ## Buffer (缓冲区)
 功能名 | 快捷键
 :--- | ---
-Less (只读模式) | C-l
+Less (只读模式) | M-l
 隐藏注释 | M-m
 打开缓冲区列表 | C-x C-b
 关闭缓冲区 | C-x k

@@ -12,7 +12,7 @@
      ("M-h" . set-mark-command)
      ("M-g" . goto-line)
      ("C-:" . comment-or-uncomment-region+)
-     ("C-l" . less-minor-mode)
+     ("M-l" . less-minor-mode)
      ("M-N" . kill-syntax-backward+)            ;向后进行语法删除
      ("M-M" . kill-syntax-forward+)             ;向前进行语法删除
      ("C-j" . paredit-newline)
@@ -22,6 +22,13 @@
      ("M-j" . sr-speedbar-toggle)
   )
   )
+
+(lazy-set-key
+ '(
+   ("q" . dired-jump)
+   )
+ less-minor-mode-map
+ )
 
 (lazy-set-autoload-key
  '(
