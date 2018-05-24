@@ -26,6 +26,10 @@ Dependencies: `sudo apt install clang libclang1`
 
 # 快捷键
 
+* s 为 Win 键
+* C 为 Ctrl 键
+* M 为 Alt 键
+
 ## Buffer (缓冲区)
 功能名 | 快捷键
 :--- | ---
