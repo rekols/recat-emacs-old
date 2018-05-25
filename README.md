@@ -8,7 +8,7 @@
 
 在 `~/.emacs.d` 目录下创建一个 init.el 文件，写入 `load-file ("~/remacs/loader.el")`，括号内是 loader.el 的文件路径。
 
-依赖: 
+# 依赖
 
 * `sudo apt install clang libclang1`
 
