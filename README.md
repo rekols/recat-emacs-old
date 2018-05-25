@@ -2,7 +2,7 @@
 
 The same feel as Deepin Emacs.
 
-![screenshot](20180525104353.png)
+![](https://github.com/rekols/remacs/blob/master/screenshot/20180525104353.png)
 
 # How to use 
 
