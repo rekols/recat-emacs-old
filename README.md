@@ -14,6 +14,8 @@
 
 * `sudo apt install clang libclang1`
 
+推荐使用 [source-code-pro](https://github.com/adobe-fonts/source-code-pro) 字体
+
 # 插件
 
 * [auto-complete](https://github.com/auto-complete/auto-complete)
@@ -32,7 +34,7 @@
 
 打开文件默认进入只读模式（Less），在 Less 下可以快速阅读代码，k、j 为上下滚屏，按 i 进入编辑模式，按下 q 自动跳转到文件管理器。
 
-推荐使用 [source-code-pro](https://github.com/adobe-fonts/source-code-pro) 字体
+支持有道翻译与星际译王，[星际译王词库下载](http://download.huzheng.org/)
 
 # 快捷键
 
@@ -83,4 +85,5 @@ Less (只读模式) | M-l
 缩放增大 | M-=
 root打开 | s-f
 有道翻译 | C-a
+sdcv 翻译 | C-o
 终端 | M-t
