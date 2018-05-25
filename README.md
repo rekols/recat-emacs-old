@@ -28,6 +28,8 @@
 
 # 特点
 
+内置暗色与亮色主题。
+
 打开文件默认进入只读模式（Less），在 Less 下可以快速阅读代码，k、j 为上下滚屏，按 i 进入编辑模式，按下 q 自动跳转到文件管理器。
 
 推荐使用 [source-code-pro](https://github.com/adobe-fonts/source-code-pro) 字体
