@@ -2,11 +2,13 @@
 
 The same feel as Deepin Emacs.
 
+![](screenshot/20180525104353.png)
+
 # How to use 
 
 `init.el` in the `~/.emacs.d` directory to create a file, write `load-file ("~/remacs/custom.el")`...
 
-Dependencies: `sudo apt install clang libclang1`
+依赖: `sudo apt install clang libclang1`
 
 # Plugins (一些插件)
 
