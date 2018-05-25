@@ -35,4 +35,4 @@
 
 (require 'youdao-dictionary)
 
-(provide 'custom)
+(provide 'loader)
