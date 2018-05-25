@@ -8,7 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'yellow-theme)
+(require 'dark-theme)
 (require 'basic-tools)
 (require 'hide-comnt)
 (require 'move-text)

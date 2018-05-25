@@ -30,11 +30,6 @@
    )
  "moccur-at-pointer")
 
-(lazy-set-key
- '(
-   ("C-a" . sdcv-search-pointer+)
-   ))
-
 (defvar paredit-key-alist nil)
 (setq paredit-key-alist
       '(
@@ -58,6 +53,7 @@
    ;; ("s-x" . multi-term-dedicated-toggle) ; toggle terminal
    ("s-f" . find-file-root)              ; root 打开
    ("C-a" . youdao-dictionary-search-at-point-tooltip) ; 有道翻译
+   ("C-y" . sdcv-search-pointer+)                      ; sdcv 翻译
 ))
 
 (lazy-set-key
