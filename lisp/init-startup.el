@@ -23,7 +23,7 @@
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)                                  
-(fullscreen)
+(maximize)
 (set-face-attribute 'default nil :height 145) ;设置字体大小
 
 (setq smooth-scroll-margin 2) ; 平滑滚动

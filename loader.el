@@ -6,8 +6,9 @@
 
 (add-subdirs-to-load-path "~/remacs/lisp")
 (add-subdirs-to-load-path "~/remacs/extensions")
+(add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'dark-theme)
+(require 'yellow-theme)
 (require 'basic-tools)
 (require 'hide-comnt)
 (require 'move-text)
