@@ -1,16 +1,18 @@
 # Rekols's Emacs
 
-The same feel as Deepin Emacs.
+可能比 Spacemacs 好一点。
 
 ![](https://github.com/rekols/remacs/blob/master/screenshot/20180525104353.png)
 
-# How to use 
+# 怎么使用
 
-`init.el` in the `~/.emacs.d` directory to create a file, write `load-file ("~/remacs/custom.el")`...
+在 `~/.emacs.d` 目录下创建一个 init.el 文件，写入 `load-file ("~/remacs/loader.el")`，括号内是 loader.el 的文件路径。
 
-依赖: `sudo apt install clang libclang1`
+依赖: 
 
-# Plugins (一些插件)
+* `sudo apt install clang libclang1`
+
+# 插件
 
 * [auto-complete](https://github.com/auto-complete/auto-complete)
 
@@ -22,9 +24,11 @@ The same feel as Deepin Emacs.
 
 ....
 
-# Features (特点)
+# 特点
 
 打开文件默认进入只读模式（Less），在 Less 下可以快速阅读代码，k、j 为上下滚屏，按 i 进入编辑模式，按下 q 自动跳转到文件管理器。
+
+推荐使用 [source-code-pro](https://github.com/adobe-fonts/source-code-pro) 字体
 
 # 快捷键
 
