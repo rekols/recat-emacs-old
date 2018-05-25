@@ -7,7 +7,7 @@
      ("C-?" . redo)  ; TODO: 重做
      ("C-c v" . split-window-vertically)
      ("C-c h" . split-window-horizontally)
-     ("C-x ;" . delete-other-windows)
+     ("C-x c" . delete-other-windows)
      ("M-4" . whitespace-cleanup)
      ("M-h" . set-mark-command)
      ("M-g" . goto-line)
