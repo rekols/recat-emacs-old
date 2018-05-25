@@ -2,7 +2,7 @@
 
 The same feel as Deepin Emacs.
 
-![](../screenshot/20180525104353.png)
+![screenshot](20180525104353.png)
 
 # How to use 
 
