@@ -1,6 +1,6 @@
 # Rekols's Emacs
 
-可能比 Spacemacs 好一点。
+可能比 Spacemacs 好用一点。
 
 ![](https://github.com/rekols/remacs/blob/master/screenshot/20180525104353.png)
 
