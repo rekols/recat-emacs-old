@@ -19,6 +19,12 @@
    '(linum ((t (:background "#FDF6E3" :foreground "#586E75"))))    ; 行数栏
    '(cursor ((t (:background "#717171"))))                         ; 光标颜色
 
+   ; mode-line
+   '(mode-line ((t (:background "#C29C3D" :foreground "white" :box(:color "#A37C1C" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "#EEE7D5" foreground-color "black"))))
+   `(mode-line-buffer-id ((t (:weight bold))))
+   `(mode-line-emphasis ((t (:weight bold))))
+
    ; tabbar
    '(tabbar-default ((t (:inherit variable-pitch :background "#FDF6E3" :foreground "#565656" :height 1.1 :family "Droid Sans Mono"))))
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#EEE1B6")))))
