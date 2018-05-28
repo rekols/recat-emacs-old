@@ -92,13 +92,6 @@
    `(query-replace ((t (:inherit (isearch)))))
    `(minibuffer-prompt ((t (:foreground ,atom-one-dark-silver))))
 
-   '(popup-isearch-match ((t (:background "#191919" :foreground "#ffffff"))))
-   '(popup-menu-mouse-face ((t (:background "gold" :foreground "white"))))
-   '(popup-menu-summary-face ((t (:background "#191919" :foreground "grey"))))
-   '(popup-scroll-bar-background-face ((t (:background "#191919"))))
-   '(popup-scroll-bar-foreground-face ((t (:background "#393939"))))
-    '(popup-summary-face ((t (:background "#191919" :foreground "grey"))))
-   
    `(font-lock-builtin-face ((t (:foreground ,atom-one-dark-cyan))))
    `(font-lock-comment-face ((t (:foreground ,atom-one-dark-mono-3))))
    `(font-lock-comment-delimiter-face ((default (:inherit (font-lock-comment-face)))))
