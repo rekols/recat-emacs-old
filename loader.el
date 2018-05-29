@@ -8,7 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'dark-theme)
+(require 'light-theme)
 (require 'basic-tools)
 (require 'hide-comnt)
 (require 'move-text)
@@ -20,7 +20,7 @@
 (require 'init-auto-save)
 (require 'init-generic)
 (require 'init-multiterm)
-(require 'init-linum)
+(require 'init-line-numbers)
 (require 'init-backup)
 (require 'init-indent)
 (require 'init-tabbar)
