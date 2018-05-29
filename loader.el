@@ -16,6 +16,7 @@
 
 (require 'init-startup)
 (require 'init-flycheck)
+(require 'init-mode-line)
 (require 'init-auto-complete)
 (require 'init-auto-save)
 (require 'init-generic)
