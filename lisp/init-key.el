@@ -20,7 +20,9 @@
      ("M-t" . multi-term-dedicated-toggle)
      ("M-m" . hide/show-comments-toggle)
      ("M-j" . sr-speedbar-toggle)
-  )
+     ("C-h" . dired-jump)
+     ("<C-tab>" . tabbar-backward-tab)
+     )
   )
 
 (lazy-set-autoload-key
@@ -76,13 +78,6 @@
      ("M-o" . isearch-delete-char)
   )
   isearch-mode-map
-)
-
-(lazy-set-key
-  '(
-     ("<C-tab>" . tabbar-backward-tab)
-     ("<f8>" . dired-jump)
-  )
 )
 
 (lazy-set-key
