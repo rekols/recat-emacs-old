@@ -28,7 +28,8 @@
 
 (setq smooth-scroll-margin 2) ; 平滑滚动
 
-(add-hook 'text-mode-hook 'less-minor-mode)
-(add-hook 'prog-mode-hook 'less-minor-mode)
+;; 模仿 Vim
+;; (add-hook 'text-mode-hook 'less-minor-mode)
+;; (add-hook 'prog-mode-hook 'less-minor-mode)
 
 (provide 'init-startup)
