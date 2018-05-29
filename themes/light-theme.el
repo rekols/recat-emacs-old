@@ -162,9 +162,9 @@ more...")
    `(underline ((,class (:underline t))))
    `(cursor ((,class (:background "#21BDFF"))))
 
-   '(tabbar-default ((t (:inherit variable-pitch :background "#2CA7F8" :foreground "#FFFFFF" :height 1.1 :family "Droid Sans Mono"))))
+   '(tabbar-default ((t (:inherit variable-pitch :background "#E4E4E4" :foreground "#787878" :height 1.1 :family "Droid Sans Mono"))))
    '(tabbar-separator ((t (:inherit tabbar-default :background "#F7F7F7" :height 0.1))))
-   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#EEE1B6")))))
+   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#B9B9B9")))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "#FFFFFF" :foreground "#969696" :box (:line-width 1 :color "#FFFFFF")))))
 
    ;; Lucid toolkit emacs menus.
