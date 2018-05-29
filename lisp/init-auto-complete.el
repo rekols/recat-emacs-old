@@ -29,8 +29,8 @@
                   /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed
                   /usr/include/x86_64-linux-gnu
                   /usr/include
-
 ")))
+
   (setq-default ac-sources '(ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers))
   (add-hook 'emacs-lisp-mode-hook 'ac-emacs-lisp-mode-setup)
   ;; (add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
