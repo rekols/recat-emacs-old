@@ -1,6 +1,6 @@
 # Rekols's Emacs
 
-可能比 Spacemacs 好用一点。
+可能比 Spacemacs 好用一点.
 
 ![](https://github.com/rekols/remacs/blob/master/screenshot/20180525104353.png)
 
@@ -9,6 +9,10 @@
 克隆本项目到本地 Home 目录: `git clone https://github.com/rekols/remacs.git`
 
 在 `~/.emacs.d` 目录下创建一个 init.el 文件，写入 `load-file ("~/remacs/loader.el")`，括号内是 loader.el 的文件路径。
+
+# 最低版本支持
+
+Emacs 26.1
 
 # 依赖
 
