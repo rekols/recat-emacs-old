@@ -187,8 +187,8 @@ more...")
    `(whitespace-trailing ((,class ,trailing)))
 
    ;; Mode line faces.
-   '(mode-line ((t (:background "#E5E5E6" :foreground "#383838" :box(:color "#D1D1D2" :line-width 1)))))
-   '(mode-line-inactive ((t (:background "#FFFFFF" foreground-color "#383838" :box(:color "#D1D1D2" :line-width 1)))))
+   '(mode-line ((t (:background "#D2D2D2" :foreground "#383838" :box(:color "#A6A6A6" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "#E8E8E8" foreground-color "#383838" :box(:color "#D1D1D2" :line-width 1)))))
    `(mode-line-buffer-id ((t (:weight bold))))
    `(mode-line-emphasis ((t (:weight bold))))
    `(mode-line-highlight ((,class (:foreground "yellow"))))
