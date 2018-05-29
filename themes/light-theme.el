@@ -105,7 +105,7 @@ more...")
       (diff-refine-added '(:background "#97F295"))
       (diff-refine-removed '(:background "#FFB6BA"))
       (diff-removed '(:background "#FEE8E9"))
-      (directory '(:weight bold :foreground "blue" :background "#FFFFD2"))
+      (directory '(:weight bold :foreground "#383838" :background "#FFFFFF"))
       (file '(:foreground "black"))
       (function-param '(:foreground "#247284"))
       (grep-file-name '(:weight bold :foreground "#2A489E")) ; Used for grep hits.
@@ -162,8 +162,9 @@ more...")
    `(underline ((,class (:underline t))))
    `(cursor ((,class (:background "#21BDFF"))))
 
-   '(tabbar-default ((((class color) (background light)) (:inherit variable-pitch :height 1.1 :family "文泉驿等宽微米黑"))))
-   '(tabbar-selected ((t (:inherit tabbar-default :background "#EDEDED" :foreground "#636363" :box (:line-width 1 :color "#EDEDED")))))
+   '(tabbar-default ((t (:inherit variable-pitch :background "#2CA7F8" :foreground "#FFFFFF" :height 1.1 :family "Droid Sans Mono"))))
+   '(tabbar-separator ((t (:inherit tabbar-default :background "#F7F7F7" :height 0.1))))
+   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#EEE1B6")))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "#FFFFFF" :foreground "#969696" :box (:line-width 1 :color "#FFFFFF")))))
 
    ;; Lucid toolkit emacs menus.
@@ -186,10 +187,10 @@ more...")
    `(whitespace-trailing ((,class ,trailing)))
 
    ;; Mode line faces.
-   `(mode-line ((,class (:box (:line-width 1 :color "#1A2F54") :foreground "#85CEEB" :background "#335EA8"))))
-   `(mode-line-inactive ((,class (:box (:line-width 1 :color "#4E4E4C") :foreground "#F0F0EF" :background "#9B9C97"))))
-   `(mode-line-buffer-id ((,class (:weight bold :foreground "white"))))
-   `(mode-line-emphasis ((,class (:weight bold :foreground "white"))))
+   '(mode-line ((t (:background "#E5E5E6" :foreground "#383838" :box(:color "#D1D1D2" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "#FFFFFF" foreground-color "#383838" :box(:color "#D1D1D2" :line-width 1)))))
+   `(mode-line-buffer-id ((t (:weight bold))))
+   `(mode-line-emphasis ((t (:weight bold))))
    `(mode-line-highlight ((,class (:foreground "yellow"))))
 
    ;; Escape and prompt faces.
