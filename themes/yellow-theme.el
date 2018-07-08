@@ -16,7 +16,7 @@
    '(default ((t (:background "#FDF6E3" :foreground "#073642"))))  ; 全局背景
    '(hl-line ((t (:background "#EEE8D5"))))                        ; 高亮当前行
    '(region ((t (:background "#D0C8B0" :foreground "#073642"))))   ; 选中区域
-   '(linum ((t (:background "#FDF6E3" :foreground "#586E75"))))    ; 行数栏
+   '(linum ((t (:background "#EEE8D5" :foreground "#586E75"))))    ; 行数栏
    '(cursor ((t (:background "#717171"))))                         ; 光标颜色
 
    ; mode-line

@@ -2,7 +2,7 @@
 
 (show-paren-mode t)                     ; 高亮显示成对括号   
 (transient-mark-mode 1)                 ; 标记高亮
-(fset 'yes-or-no-p 'y-or-n-p)           ; 烦人的yes/no
+(defalias 'yes-or-no-p 'y-or-n-p)       ; 烦人的yes/no
 (global-hl-line-mode 1)                 ; 全局高亮模式
 (blink-cursor-mode -1)                  ; 指针不闪动
 
